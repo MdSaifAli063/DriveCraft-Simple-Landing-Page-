@@ -4,6 +4,8 @@ Beautiful, responsive, and accessible landing page for showcasing a car lineup w
 
 ![Status](https://img.shields.io/badge/status-stable-34D058?style=flat) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000) ![Responsive](https://img.shields.io/badge/Responsive-Yes-0eb37a)
 
+![image](https://github.com/MdSaifAli063/DriveCraft-Simple-Landing-Page-/blob/c8a9fbba0c71d47c01969bc5bb4a5f041a5c12cd/Screenshot%202025-09-12%20012308.png)
+
 ---
 
 ## ✨ Overview
