@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveCraft — Car Showcase</title>
+
+    <!-- Ensure faster/allowed image fetching and no-referrer to avoid blocking -->
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+    <meta name="referrer" content="no-referrer">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">DriveCraft</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#models">Models</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-inner">
+            <div class="hero-text">
+                <h1>Drive the Future</h1>
+                <p>Innovative engineering, striking design and electrifying performance. Discover our lineup of
+                    next-generation vehicles.</p>
+                <div class="hero-cta">
+                    <a href="#models" class="btn primary">Explore Models</a>
+                    <a href="#contact" class="btn ghost">Contact Sales</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img
+                    src="https://getwallpapers.com/wallpaper/full/4/a/0/782633-download-free-sports-car-wallpaper-2880x1800-for-4k.jpg"
+                    srcset="
+                      https://getwallpapers.com/wallpaper/full/4/a/0/782633-download-free-sports-car-wallpaper-2880x1800-for-4k.jpg
+                    "
+                    sizes="(max-width: 980px) 100vw, 50vw"
+                    alt="Futuristic sports car in motion at dusk"
+                    decoding="async"
+                    fetchpriority="high"
+                    width="1600" height="900"
+                    referrerpolicy="no-referrer"
+                    onerror="this.onerror=null;this.src='https://placehold.co/1600x900/png?text=Hero+Image+Unavailable&font=inter';">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why DriveCraft</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Performance</h3>
+                    <p>High-output powertrains tuned for both efficiency and adrenaline.</p>
+                </div>
+                <div class="card">
+                    <h3>Design</h3>
+                    <p>Sculpted exteriors and premium interiors with attention to detail.</p>
+                </div>
+                <div class="card">
+                    <h3>Technology</h3>
+                    <p>Smart safety, intelligent driving aids and immersive infotainment.</p>
+                </div>
+                <div class="card">
+                    <h3>Sustainability</h3>
+                    <p>Electrified options and sustainably sourced materials.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel / Models -->
+    <section id="models" class="models">
+        <div class="carousel" aria-label="Car showcase" tabindex="0">
+            <div class="list" aria-live="polite">
+                <div class="item">
+                    <img
+                        src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80"
+                        srcset="
+                          https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=640&q=80 640w,
+                          https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1024&q=80 1024w,
+                          https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1600&q=80 1600w
+                        "
+                        sizes="(max-width: 840px) 100vw, min(100vw, 1240px)"
+                        alt="Velocity GT on a mountain road at sunrise"
+                        decoding="async"
+                        fetchpriority="high"
+                        width="1600" height="900"
+                        referrerpolicy="no-referrer"
+                        onerror="this.onerror=null;this.src='https://placehold.co/1600x900/png?text=Velocity+GT+Image+Unavailable&font=inter';">
+                    <div class="introduce">
+                        <div class="title">PERFORMANCE REDEFINED</div>
+                        <div class="topic">Velocity GT</div>
+                        <div class="des">The Velocity GT blends precision engineering with bold design and turbocharged
+                            performance.</div>
+                        <button class="seeMore" aria-haspopup="dialog" aria-label="Explore Velocity GT details">EXPLORE &#8599</button>
+                    </div>
+                    <div class="detail" role="dialog" aria-modal="false" aria-label="Velocity GT details">
+                        <div class="title">Velocity GT</div>
+                        <div class="des">Turbo V6, adaptive suspension and a driver-focused cockpit.</div>
+                        <div class="specifications">
+                            <div>
+                                <p>Top Speed</p>
+                                <p>320 km/h</p>
+                            </div>
+                            <div>
+                                <p>0-100 km/h</p>
+                                <p>3.4 s</p>
+                            </div>
+                            <div>
+                                <p>Drive</p>
+                                <p>AWD</p>
+                            </div>
+                        </div>
+                        <div class="checkout">
+                            <button>REQUEST INFO</button>
+                            <button>BOOK TEST DRIVE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img
+                        src="https://wallpaper-house.com/data/out/5/wallpaper2you_64408.jpg"
+                        srcset="
+                         https://wallpaper-house.com/data/out/5/wallpaper2you_64408.jpg
+                        "
+                        sizes="(max-width: 840px) 100vw, min(100vw, 1240px)"
+                        alt="Aurora LX luxury sedan in a modern cityscape"
+                        loading="lazy"
+                        decoding="async"
+                        width="1600" height="900"
+                        referrerpolicy="no-referrer"
+                        onerror="this.onerror=null;this.src='https://placehold.co/1600x900/png?text=Aurora+LX+Image+Unavailable&font=inter';">
+                    <div class="introduce">
+                        <div class="title">ELEGANCE & TECH</div>
+                        <div class="topic">Aurora LX</div>
+                        <div class="des">A luxurious cabin with advanced infotainment and whisper-quiet ride quality.
+                        </div>
+                        <button class="seeMore" aria-haspopup="dialog" aria-label="Explore Aurora LX details">EXPLORE &#8599</button>
+                    </div>
+                    <div class="detail" role="dialog" aria-modal="false" aria-label="Aurora LX details">
+                        <div class="title">Aurora LX</div>
+                        <div class="des">Plush leather, advanced driver assistance and refined hybrid efficiency.</div>
+                        <div class="specifications">
+                            <div>
+                                <p>Range</p>
+                                <p>750 km</p>
+                            </div>
+                            <div>
+                                <p>Seats</p>
+                                <p>5</p>
+                            </div>
+                            <div>
+                                <p>Infotainment</p>
+                                <p>14&quot; OLED</p>
+                            </div>
+                        </div>
+                        <div class="checkout">
+                            <button>REQUEST INFO</button>
+                            <button>BOOK TEST DRIVE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img
+                        src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+                        srcset="
+                          https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=640&q=80 640w,
+                          https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1024&q=80 1024w,
+                          https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80 1600w
+                        "
+                        sizes="(max-width: 840px) 100vw, min(100vw, 1240px)"
+                        alt="Summit X rugged SUV front fascia close-up"
+                        loading="lazy"
+                        decoding="async"
+                        width="1600" height="900"
+                        referrerpolicy="no-referrer"
+                        onerror="this.onerror=null;this.src='https://placehold.co/1600x900/png?text=Summit+X+Image+Unavailable&font=inter';">
+                    <div class="introduce">
+                        <div class="title">RUGGED CAPABILITY</div>
+                        <div class="topic">Summit X</div>
+                        <div class="des">Built to explore with heavy-duty suspension and trail-ready features.</div>
+                        <button class="seeMore" aria-haspopup="dialog" aria-label="Explore Summit X details">EXPLORE &#8599</button>
+                    </div>
+                    <div class="detail" role="dialog" aria-modal="false" aria-label="Summit X details">
+                        <div class="title">Summit X</div>
+                        <div class="des">Skid plates, reinforced frame and smart traction for off-road confidence.</div>
+                        <div class="specifications">
+                            <div>
+                                <p>Towing</p>
+                                <p>3500 kg</p>
+                            </div>
+                            <div>
+                                <p>Ground Clearance</p>
+                                <p>240 mm</p>
+                            </div>
+                            <div>
+                                <p>Drivetrain</p>
+                                <p>4x4</p>
+                            </div>
+                        </div>
+                        <div class="checkout">
+                            <button>REQUEST INFO</button>
+                            <button>BOOK TEST DRIVE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img
+                        src="https://images.unsplash.com/photo-1549923746-c502d488b3ea?auto=format&fit=crop&w=1200&q=80"
+                        srcset="
+                          https://images.unsplash.com/photo-1549923746-c502d488b3ea?auto=format&fit=crop&w=640&q=80 640w,
+                          https://images.unsplash.com/photo-1549923746-c502d488b3ea?auto=format&fit=crop&w=1024&q=80 1024w,
+                          https://images.unsplash.com/photo-1549923746-c502d488b3ea?auto=format&fit=crop&w=1600&q=80 1600w
+                        "
+                        sizes="(max-width: 840px) 100vw, min(100vw, 1240px)"
+                        alt="Metro S compact car in a modern architectural setting"
+                        loading="lazy"
+                        decoding="async"
+                        width="1600" height="900"
+                        referrerpolicy="no-referrer"
+                        onerror="this.onerror=null;this.src='https://placehold.co/1600x900/png?text=Metro+S+Image+Unavailable&font=inter';">
+                    <div class="introduce">
+                        <div class="title">CITY SMART</div>
+                        <div class="topic">Metro S</div>
+                        <div class="des">Agile dimensions and smart parking tech for urban living.</div>
+                        <button class="seeMore" aria-haspopup="dialog" aria-label="Explore Metro S details">EXPLORE &#8599</button>
+                    </div>
+                    <div class="detail" role="dialog" aria-modal="false" aria-label="Metro S details">
+                        <div class="title">Metro S</div>
+                        <div class="des">Compact, efficient and easy to maneuver around town.</div>
+                        <div class="specifications">
+                            <div>
+                                <p>City Range</p>
+                                <p>650 km</p>
+                            </div>
+                            <div>
+                                <p>Width</p>
+                                <p>1.78 m</p>
+                            </div>
+                            <div>
+                                <p>Park</p>
+                                <p>Auto</p>
+                            </div>
+                        </div>
+                        <div class="checkout">
+                            <button>REQUEST INFO</button>
+                            <button>BOOK TEST DRIVE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img
+                        src="https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=1200&q=80"
+                        srcset="
+                          https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=640&q=80 640w,
+                          https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=1024&q=80 1024w,
+                          https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=1600&q=80 1600w
+                        "
+                        sizes="(max-width: 840px) 100vw, min(100vw, 1240px)"
+                        alt="Eon EV charging at a modern station, blue ambient lighting"
+                        loading="lazy"
+                        decoding="async"
+                        width="1600" height="900"
+                        referrerpolicy="no-referrer"
+                        onerror="this.onerror=null;this.src='https://placehold.co/1600x900/png?text=Eon+EV+Image+Unavailable&font=inter';">
+                    <div class="introduce">
+                        <div class="title">FUTURE MOBILITY</div>
+                        <div class="topic">Eon EV</div>
+                        <div class="des">Pure electric performance with a minimalist sustainable interior.</div>
+                        <button class="seeMore" aria-haspopup="dialog" aria-label="Explore Eon EV details">EXPLORE &#8599</button>
+                    </div>
+                    <div class="detail" role="dialog" aria-modal="false" aria-label="Eon EV details">
+                        <div class="title">Eon EV</div>
+                        <div class="des">Instant torque, regenerative braking and long-range battery tech.</div>
+                        <div class="specifications">
+                            <div>
+                                <p>Range</p>
+                                <p>540 km</p>
+                            </div>
+                            <div>
+                                <p>Charge</p>
+                                <p>0-80% in 30 min</p>
+                            </div>
+                            <div>
+                                <p>Power</p>
+                                <p>300 kW</p>
+                            </div>
+                        </div>
+                        <div class="checkout">
+                            <button>REQUEST INFO</button>
+                            <button>BOOK TEST DRIVE</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="arrows">
+                <button id="prev" aria-label="Previous">&#x25C0;</button>
+                <button id="next" aria-label="Next">&#x25B6;</button>
+                <button id="back">View All &#8599</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer id="contact">
+        <div class="container footer-inner">
+            <div class="brand">
+                <div class="logo">DriveCraft</div>
+                <p>Handcrafted cars for modern drivers.</p>
+            </div>
+            <div class="links">
+                <h4>Quick Links</h4>
+                <a href="#models">Models</a>
+                <a href="#features">Features</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="contact">
+                <h4>Contact</h4>
+                <p>Email: sales@drivecraft.example</p>
+                <p>Phone: +1 800 555 0123</p>
+            </div>
+        </div>
+        <div class="copyright">© 2025 DriveCraft. All rights reserved.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
