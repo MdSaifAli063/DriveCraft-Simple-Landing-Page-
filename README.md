@@ -56,7 +56,6 @@ No build step required.
 
 ## 📁 Project Structure
 
-
 . ├─ index.html # Main landing page markup ├─ style.css # Styles for layout, typography, components ├─ script.js # Carousel interactions and UI behavior └─ assets/ # (optional) Local images, icons, or fonts
 
 
