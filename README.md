@@ -58,7 +58,6 @@ No build step required.
 
 . ├─ index.html # Main landing page markup ├─ style.css # Styles for layout, typography, components ├─ script.js # Carousel interactions and UI behavior └─ assets/ # (optional) Local images, icons, or fonts
 
-
 ---
 
 ## 🛠️ Customization
